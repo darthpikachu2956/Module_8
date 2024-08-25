@@ -22,9 +22,6 @@ write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в',
 
 
 # Метод __call__
-from random import choice
-
-
 class MysticBall:
     def __init__(self, *words):
         self.words = words
